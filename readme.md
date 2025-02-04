@@ -8,4 +8,7 @@ Ce TP a pour objectif de se familiariser avec Redis, une base de données clé-v
 - **Installation de Docker** : Assurez-vous que Docker est installé sur votre machine.
 - **Lancer Redis avec Docker** : Utilisez la commande suivante pour exécuter Redis dans un conteneur Docker :
 ```bash
-    docker pull redis
+    docker pull redis*
+
+
+    
