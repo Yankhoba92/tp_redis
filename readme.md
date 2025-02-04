@@ -37,3 +37,14 @@ Ce TP Redis avec Docker.
     LREM fruits 1 "Raisin"    
     ```
 ![Capture de l'exécution de mon code](List.png)
+- **Basic Create, Read, Delete Sets** : Pour pouvoir intéragir avec mon conteneur et faire des opérations
+    ```bash
+    ZADD scores 10 "player1" 20 "player2" 30 "player3"
+    ZINCRBY scores 5 "player1"
+    ZRANGE scores 0 -1   
+    ZRANGEBYSCORE scores 10 20 
+    ZREM scores "player1"   
+    ZREMRANGEBYRANK scores 0 1
+    ZREMRANGEBYSCORE scores 10 20 
+    ```
+![Capture de l'exécution de mon code](players.png)
